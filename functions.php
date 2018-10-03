@@ -59,3 +59,10 @@ class My_Custom_Nav_Walker extends Walker_Nav_Menu {
 	
     }
 }
+
+
+
+/*******NOW CALL THIS CALL LIKE EXAMPLE BELOW******/
+wp_nav_menu(array(
+ 'walker'      => new MyCustomNavWalker,
+));
